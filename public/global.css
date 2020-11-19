@@ -3,7 +3,7 @@
 Fonts
 ======
 */
-@import url("https://fonts.googleapis.com/css?family=Catamaran:300,400|Kaushan+Script&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Catamaran:300,400|Kaushan+Script&display=swap');
 
 /* 
 ====== 
@@ -13,8 +13,8 @@ Variables
 :root {
   --primaryColor: #9e3aa3;
   --primaryDarkColor: #4e1d51;
-  --primaryFont: "Catamaran", sans-serif;
-  --slantedFont: "Kaushan Script", cursive;
+  --primaryFont: 'Catamaran', sans-serif;
+  --slantedFont: 'Kaushan Script', cursive;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBackground: rgb(250, 245, 243);
@@ -232,7 +232,7 @@ Hero
       rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.3)
     ),
-    url("./assets/images/mainBcg.jpeg") center/cover no-repeat;
+    url('./assets/images/mainBcg.jpeg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -363,6 +363,26 @@ Products
   font-weight: bold;
   margin-bottom: 0;
   font-size: 1.1rem;
+}
+/* 
+====== 
+About
+======
+*/
+.about-section {
+  position: relative;
+  padding: 10px;
+  width: 50%;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Catamaran', sans-serif;
+  margin: 0 auto;
+  display: flex;
+}
+.about-section p {
+  font-weight: normal;
 }
 /* 
 ====== 

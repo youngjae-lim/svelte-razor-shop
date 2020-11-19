@@ -1,6 +1,6 @@
 <script>
   // products data
-  import products from '../stores/defaultsProducts';
+  import products from '../stores/products';
 
   // stores
   import globalStore from '../stores/globalStore';

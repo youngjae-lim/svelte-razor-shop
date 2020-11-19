@@ -1,0 +1,1 @@
+export default 'https://backend-razor-shop.herokuapp.com'
